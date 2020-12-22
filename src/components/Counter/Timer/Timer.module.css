@@ -1,0 +1,21 @@
+.Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1em;
+    border-radius: 10px;
+}
+    .Container > span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.1em;
+        font-size: 10em;
+        border-radius: 10px;
+        background: var(--blue);
+    }
+    .Container > div {
+        font-weight: 600;
+        font-size: 1.5em;
+    }

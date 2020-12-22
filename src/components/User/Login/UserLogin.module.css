@@ -1,0 +1,54 @@
+.Wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; height: 100vh;
+}
+
+.Container {
+    padding: 0.5em 2em;
+    border-radius: 10px;
+    background: var(--blue);
+}
+    .Container h3 {
+        margin-bottom: 2em;
+        text-align: center;
+    }
+    .Container form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Container input {
+        width: 240px;
+        margin-bottom: 1em;
+        font-size: 1em;
+        border: none;
+        background: none;
+    }
+    .Container input:focus {
+        outline: none;
+    }
+    .Container input:last-child {
+        padding: 0.5em 2em;
+        font-weight: 600;
+        border-radius: 10px;
+        border: none;
+        text-transform: uppercase;
+        color: white;
+        transition: all 0.3s ease;
+        cursor: pointer;
+    }
+    .Container input:last-child:hover {
+        background: white;
+        color: black;
+    }
+    .Container p {
+        font-size: 0.7em;
+        text-align: center;
+    }
+    .Container a {
+        font-weight: 700;
+        text-decoration: none;
+        color: white;
+    }

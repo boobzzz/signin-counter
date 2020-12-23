@@ -1,6 +1,6 @@
 ![Counter](./public/snapshot.jpg)
 
-## Signin counter
+# Signin Counter
 React/Firebase app for counting total time the user is online. Depending on the device the user uses, Desktop or Mobile timer launches.
 
 ### Libraries and dependencies used

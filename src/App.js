@@ -5,7 +5,7 @@ import { Counter } from './components/Counter';
 
 export function App() {
     return (
-        <Router>
+        <Router basename="/signin-counter">
             <Switch>
                 <Route exact path="/">
                     <UserRegister />
